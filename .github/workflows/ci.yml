@@ -1,0 +1,19 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: "recursive"
+      - run: |
+          npm install && npm run docs:build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        with:
+          branch: gh-pages
+          folder: .vitepress/dist/
