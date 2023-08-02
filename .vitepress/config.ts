@@ -2,28 +2,37 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "BiCMR AI for Math",
+  title: "PKU BiCMR AI for Math",
   description:
     'BiCMR "AI for Mathematics: Formalization and Theorem Proving" Seminar Homepage',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+
+      { text: "Lean4 Q&A", link: "/lean4-qa" },
+      {
+        text: "Team Exercises",
+        link: "/team-exercises",
+      },
+      { text: "Research Projects", link: "/research-projects" },
+
+      { text: "About", link: "/about" },
     ],
 
     sidebar: [
+      { text: "About", link: "/about" },
+
+      { text: "Lean4 Q&A", link: "/lean4-qa" },
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "Team Exercises",
+        link: "/team-exercises",
       },
+      { text: "Research Projects", link: "/research-projects" },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/bicmr-ai4math" },
     ],
   },
 });
