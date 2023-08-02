@@ -11,6 +11,6 @@ hero:
       text: "View Research Projects"
       link: /research-projects
     - theme: alt
-      text: Undergraduate Mathematics Formalisation Examples
+      text: View Team Exercises
       link: /team-exercises
 ---
