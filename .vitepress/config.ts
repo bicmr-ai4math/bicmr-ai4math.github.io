@@ -2,8 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title:
-    'BiCMR "AI for Mathematics: Formalization and Theorem Proving" Seminar',
+  title: "BiCMR AI for Math",
   description:
     'BiCMR "AI for Mathematics: Formalization and Theorem Proving" Seminar Homepage',
   themeConfig: {
