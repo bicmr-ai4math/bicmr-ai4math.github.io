@@ -130,7 +130,7 @@ M$, 证明 $f$ 是同构
 
 **习题 15**. 证明 **素理想回避定理**：设环 $R$ 中有素理想 $\mathfrak
 p_1,\cdots,\mathfrak p_n$ 是和一般的理想 $I$, 如果 $I\not\subset\mathfrak p_i$
-对所有 $i$ 成立, 则存在 $x\in I$ 使$x\not\in\mathfrak p_i$ 对所有 $i$ 成立
+对所有 $i$ 成立, 则存在 $x\in I$ 使 $x\not\in\mathfrak p_i$ 对所有 $i$ 成立
 
 ### 数论基础
 
