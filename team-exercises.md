@@ -80,7 +80,7 @@ title: AI4Math 练习项目说明
 ### 线性代数
 
 **习题 1**. 给定特征 $0$ 的域上有限维线性空间 $V$. 设 $A,B:V\to V$ 线性自同态,
-证明 $$ AB-BA\ne\mathrm{id}_V $$
+证明 $$AB-BA\ne\mathrm{id}_V$$
 
 **习题 2**. 线性空间 $V$ 的线性自同态 $p:V\to V$ 满足 $p^2=p$, 证明
 $V=\operatorname{Ker}p\oplus\operatorname{Im}p$
@@ -110,16 +110,11 @@ $H_1,H_2$ 具有互相包含关系
 **习题 11** ($\star$). 请写出 Abel 群映射正合的定义, 并从你写出的定义出发, 证明
 Abel 群的**四引理**：设 Abel 群 $A,B,C,D,A',B',C',D'$ 有如下图表
 
-<div>
-$$
-\begin{CD} A
-@>>> B @>>> C @>>> D \\ @VV\alpha V @VV\beta V @VV\gamma V @VV\delta V \\ A'
-@>>> B' @>>> C' @>>> D' \end{CD}
-$$
-</div>
-若 $\alpha$ 是满射且 $\beta, \delta$ 是单射,
-则 $\gamma$ 是单射；若 $\delta$ 是单射且 $\alpha, \gamma$ 是满射, 则 $\beta$
-是满射
+$$\begin{CD} A @>>> B @>>> C @>>> D \\ @VV\alpha V @VV\beta V @VV\gamma V
+@VV\delta V \\ A' @>>> B' @>>> C' @>>> D' \end{CD}$$
+
+若 $\alpha$ 是满射且 $\beta, \delta$ 是单射, 则 $\gamma$ 是单射； 若 $\delta$
+是单射且 $\alpha,\gamma$ 是满射, 则 $\beta$ 是满射
 
 ### 交换代数
 
@@ -127,16 +122,15 @@ $$
 和有限生成模 $M$, 存在 $r\in I$ 使 $$ (1-r)\bigcap_{k\ge 0}I^kM=0. $$
 
 **习题 13** ($\star$). 环 $R$ 和 $R$ -模正合列 $0\to M\to N\to P\to 0$,
-证明结合素理想的包含关系： $$
-\operatorname{Ass}_R(M)\subset\operatorname{Ass}_R(N)\subset\operatorname{Ass}_R(M)\cup\operatorname{Ass}_R(P)
-$$
+证明结合素理想的包含关系：
+$$\operatorname{Ass}_R(M)\subset\operatorname{Ass}_R(N)\subset\operatorname{Ass}_R(M)\cup\operatorname{Ass}_R(P)$$
 
 **习题 14** ($\star$). 给定环 $R$ 和有限生成 $R$-模 $M$, $R$-模满自同态 $f:M\to
 M$, 证明 $f$ 是同构
 
-**习题 15**. 证明**素理想回避定理**：设环 $R$ 中有素理想 $\mathfrak
+**习题 15**. 证明 **素理想回避定理**：设环 $R$ 中有素理想 $\mathfrak
 p_1,\cdots,\mathfrak p_n$ 是和一般的理想 $I$, 如果 $I\not\subset\mathfrak p_i$
-对所有 $i$ 成立, 则存在$ x\in I$ 使 $x\not\in\mathfrak p_i$ 对所有 $i$ 成立
+对所有 $i$ 成立, 则存在 $x\in I$ 使 $x\not\in\mathfrak p_i$ 对所有 $i$ 成立
 
 ### 数论基础
 
