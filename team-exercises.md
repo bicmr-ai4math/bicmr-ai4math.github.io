@@ -80,10 +80,7 @@ title: AI4Math 练习项目说明
 #### 线性代数
 
 **习题 1**. 给定特征 $0$ 的域上有限维线性空间 $V$. 设 $A,B:V\to V$ 线性自同态,
-证明
-$$
-AB-BA\ne\mathrm{id}_V
-$$
+证明 $$ AB-BA\ne\mathrm{id}_V $$
 
 **习题 2**. 线性空间 $V$ 的线性自同态 $p:V\to V$ 满足 $p^2=p$, 证明
 $V=\operatorname{Ker}p\oplus\operatorname{Im}p$
@@ -91,18 +88,16 @@ $V=\operatorname{Ker}p\oplus\operatorname{Im}p$
 **习题 3**. 给定**有限维**线性空间 $V$ 的线性**自同构** $f:V\to V$, 若 $V$
 的子空间 $W$ 是 $f$-不变的子空间, 则它也是 $f^{-1}$-不变的子空间.
 
-**习题 4** ($\star$). 基域 $\mathbb R$ 上的 $n\times n$ 任意矩阵 $A$, 证明
-$$
-\operatorname{Rank}A=\operatorname{Rank}A^\text TA
-$$
+**习题 4** ($\star$). 基域 $\mathbb R$ 上的 $n\times n$ 任意矩阵 $A$, 证明 $$
+\operatorname{Rank}A=\operatorname{Rank}A^\text TA $$
 
-**习题 5** ($\star$). 线性映射 $f:M_n(k)\to k$ 满足 $f(AB)=f(BA)$,
-证明 $f=c\operatorname{Tr}$ 对某 $c\in k$
+**习题 5** ($\star$). 线性映射 $f:M_n(k)\to k$ 满足 $f(AB)=f(BA)$, 证明
+$f=c\operatorname{Tr}$ 对某 $c\in k$
 
 #### 抽象代数
 
-**习题 6**. 对群 $G$ 的两个子群 $H_1,H_2$ 使 $H_1\cup H_2$ 是子群,
-证明 $H_1,H_2$ 具有互相包含关系
+**习题 6**. 对群 $G$ 的两个子群 $H_1,H_2$ 使 $H_1\cup H_2$ 是子群, 证明
+$H_1,H_2$ 具有互相包含关系
 
 **习题 7**. 证明有限群到 $\mathbb C^\times$ 的同态穿过 $S^1$
 
@@ -114,6 +109,7 @@ $$
 
 **习题 11** ($\star$). 请写出 Abel 群映射正合的定义, 并从你写出的定义出发, 证明
 Abel 群的**四引理**：设 Abel 群 $A,B,C,D,A',B',C',D'$ 有如下图表
+
 <div>
 $$
 \begin{CD} A
@@ -139,13 +135,13 @@ $$
 M$, 证明 $f$ 是同构
 
 **习题 15**. 证明**素理想回避定理**：设环 $R$ 中有素理想 $\mathfrak
-p_1,\cdots,\mathfrak p_n$ 是和一般的理想 $I$, 如果 $I\not\subset\mathfrak
-p_i$ 对所有 $i$ 成立, 则存在$ x\in I$ 使 $x\not\in\mathfrak p_i$ 对所有 $i$ 成立
+p_1,\cdots,\mathfrak p_n$ 是和一般的理想 $I$, 如果 $I\not\subset\mathfrak p_i$
+对所有 $i$ 成立, 则存在$ x\in I$ 使 $x\not\in\mathfrak p_i$ 对所有 $i$ 成立
 
 #### 数论基础
 
-**习题 16**. 对正整数 $a,s,t$,
-证明 $a^{\operatorname{gcd}(s,t)}-1=\operatorname{gcd}(a^s-1,a^t-1)$（作为bonus,
+**习题 16**. 对正整数 $a,s,t$, 证明
+$a^{\operatorname{gcd}(s,t)}-1=\operatorname{gcd}(a^s-1,a^t-1)$（作为bonus,
 可以证明对任意正整数 $n$, $n\nmid 2^n-1$）
 
 **习题 17** ($\star$). 对 $K=\mathbb Q[\sqrt{-3}]$, 证明它的整数环 $\mathcal
@@ -154,8 +150,8 @@ O_K$ 是主理想整环
 
 **习题 18** ($\star$). 证明域的有限乘法群是循环群
 
-**习题 19**. 设 $p$ 是奇素数, 证明 $x^2+y^2=1$ 在 $\mathbb
-F_p$ 中的解数为 $p-(-1)^{(p-1)/2}$
+**习题 19**. 设 $p$ 是奇素数, 证明 $x^2+y^2=1$ 在 $\mathbb F_p$ 中的解数为
+$p-(-1)^{(p-1)/2}$
 
 #### 基础分析
 
@@ -183,27 +179,40 @@ $C_2$
 
 ### 计算数学相关
 
-下面列了8个相关选题，每个选题提到了相关方向的一些定理，给了一些参考文献的部分内容，里面可能涉及到了很多定理与例子。实际形式化的时候，可以从易到难，从例子到定理。
+下面列了 8
+个相关选题，每个选题提到了相关方向的一些定理，给了一些参考文献的部分内容，里面可能涉及到了很多定理与例子。实际形式化的时候，可以从易到难，从例子到定理。
 
-1. 凸集：可以将1.3.1节[@sun2006optimization]中的一些例子的证明形式化，也可以尝试证明1.3.3节中的凸集分离定理不同形式（这可能在Mathlib库中的Hahn-Banach定理中提到过）。
+1. 凸集：可以将 1.3.1 节 <sup> [[1]](#bib-1)</sup>
+   中的一些例子的证明形式化，也可以尝试证明 1.3.3
+   节中的凸集分离定理不同形式（这可能在 Mathlib 库中的 Hahn-Banach
+   定理中提到过）。
 
-2. 凸函数：可以在1.3.2节[@sun2006optimization]中形式化凸函数的一些性质与判定（如梯度单调、海瑟矩阵半正定等）。也可以形式化有关强凸函数的性质。
+2. 凸函数：可以在 1.3.2
+   节[@sun2006optimization]中形式化凸函数的一些性质与判定（如梯度单调、海瑟矩阵半正定等）。也可以形式化有关强凸函数的性质。
    如果高维函数难以操作，也可以先尝试在一维函数的背景下形式化。
 
-3. 向量范数和矩阵范数：可以探索lean中关于范数已经有的结论，探索部分还没有形式化的内容，可以参考[@sun2006optimization]1.2.1
-   相关内容。
+3. 向量范数和矩阵范数：可以探索lean中关于范数已经有的结论，探索部分还没有形式化的内容，可以参考
+   <sup> [[1]](#bib-1)</sup> 1.2.1 相关内容。
 
 4. 高维微积分：可以尝试使用fderiv和deriv的定义来形式化一些高维微积分或
    计算矩阵函数的导数。如果定理形式化较为困难，也可以从例子入手。
 
-5. 多项式插值，样条：可以考虑拉格朗日插值的存在性以及误差估计，样条函数的存在性等等内容，也可以从最佳逼近角度证明一些基本定理，参考[@张平文2007数值分析]第二章的部分内容。
+5. 多项式插值，样条：可以考虑拉格朗日插值的存在性以及误差估计，样条函数的存在性等等内容，也可以从最佳逼近角度证明一些基本定理，参考
+   <sup> [[2]](#bib-2)</sup> 第二章的部分内容。
 
-6. 矩阵迹和行列式：
-   可以将矩阵计算的一些特性形式化，如分块矩阵、Schur补、SMW公式。注意其中部分内容在mathlib中已经形式化。可以参考[@sun2006optimization]中1.2.4节相关内容。
+6. 矩阵迹和行列式： 可以将矩阵计算的一些特性形式化，如分块矩阵、Schur 补、SMW
+   公式。注意其中部分内容在 Mathlib 中已经形式化。可以参考 <sup>
+   [[1]](#bib-1)</sup> 中 1.2.4 节相关内容。
 
-7. 数值微分、数值积分：可以给出微分和积分格式的误差估计，灵活应用导数、积分和中值定理。参考文献为[@张平文2007数值分析]第三章部分。
+7. 数值微分、数值积分：可以给出微分和积分格式的误差估计，灵活应用导数、积分和中值定理。参考文献为
+   <sup> [[2]](#bib-2)</sup> 第三章部分。
 
-8. 矩阵的特征值和特征向量相关性质：例如实对称矩阵一定有实特征值等等，可以参考[@sun2006optimization]1.2.2节相关内容。
+8. 矩阵的特征值和特征向量相关性质：例如实对称矩阵一定有实特征值等等，可以参考
+   <sup> [[1]](#bib-1)</sup> 1.2.2 节相关内容。
+
+---
+
+<a id="bib-1"></a>[1]
 
 ```BibTeX
 @book{sun2006optimization,
@@ -213,18 +222,15 @@ $C_2$
   year={2006},
   publisher={Springer Science \& Business Media}
 }
+```
+
+<a id="bib-2"></a>[2]
+
+```BibTeX
 @book{张平文2007数值分析,
   title={数值分析},
   author={张平文，李铁军},
   year={2007},
   publisher={北京大学出版社}
-}
-@inproceedings{de2015lean,
-  title={The Lean theorem prover (system description)},
-  author={de Moura, Leonardo and Kong, Soonho and Avigad, Jeremy and Van Doorn, Floris and von Raumer, Jakob},
-  booktitle={Automated Deduction-CADE-25: 25th International Conference on Automated Deduction, Berlin, Germany, August 1-7, 2015, Proceedings 25},
-  pages={378--388},
-  year={2015},
-  organization={Springer}
 }
 ```
