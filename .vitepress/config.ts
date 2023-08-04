@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-import markdownItKatex from "@iktakahiro/markdown-it-katex";
+import markdownItKatex from "./plugin/markdown-it-katex"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -61,29 +61,8 @@ export default defineConfig({
         crossorigin: "",
       }
     ],
-
-    [
-      'script',
-      { type: 'module', id: 'katex-render' },
-      `
-      import katex from 'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.mjs';
-
-      const rendererConfig = {
-        delimiters: [
-            { left: '$$', right: '$$', display: true },
-            { left: '$', right: '$', display: false },
-        ],
-        throwOnError : false, 
-        displayMode: true, // for amscd
-      };
-      
-      const amscds = document.querySelectorAll('.amscd');
-      amscds.forEach(x => katex.render(x.textContent, x, rendererConfig));      
-      `
-    ]
   ],
 });
-
 
 const katexCustomElements = [
   "math",

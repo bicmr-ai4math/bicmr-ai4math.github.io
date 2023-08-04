@@ -109,13 +109,11 @@ $$\operatorname{Rank}A=\operatorname{Rank}A^\text TA$$
 **习题 11** ($\star$). 请写出 Abel 群映射正合的定义, 并从你写出的定义出发, 证明
 Abel 群的**四引理**：设 Abel 群 $A,B,C,D,A',B',C',D'$ 有如下图表 
 
-<pre class="amscd">
-\begin{CD}
+$$\begin{CD}
   A @>>> B @>>> C @>>> D \\
 @VV\alpha V  @VV\beta V @VV\gamma V @VV\delta V  \\
   A' @>>> B' @>>> C' @>>> D'
-\end{CD}
-</pre>
+\end{CD}$$
 
 若 $\alpha$ 是满射且
 $\beta, \delta$ 是单射, 则 $\gamma$ 是单射；若 $\delta$ 是单射且 $\alpha,
