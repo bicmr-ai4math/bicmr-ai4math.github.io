@@ -1,10 +1,9 @@
 import { defineConfig } from "vitepress";
 
-import markdownItKatex from "./plugin/markdown-it-katex"
+import markdownItKatex from "./plugin/markdown-it-katex";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-
   markdown: {
     config: (md) => {
       md.use(markdownItKatex);
@@ -59,11 +58,12 @@ export default defineConfig({
         rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css",
         crossorigin: "",
-      }
+      },
     ],
   ],
 });
 
+// hack. See https://github.com/vuejs/vitepress/issues/529#issuecomment-1151186631
 const katexCustomElements = [
   "math",
   "maction",
