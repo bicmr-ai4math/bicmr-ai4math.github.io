@@ -1,11 +1,12 @@
 ---
 bibliography:
 - team-exercises/ref.bib
-date: 2023.7
 title: AI4Math 练习项目说明
 ---
 
 # AI4Math 练习项目说明
+
+2023 年 7 月
 
 ## 项目要求
 
@@ -79,7 +80,10 @@ title: AI4Math 练习项目说明
 #### 线性代数
 
 **习题 1**. 给定特征 $0$ 的域上有限维线性空间 $V$. 设 $A,B:V\to V$ 线性自同态,
-证明 $$ AB-BA\ne\mathrm{id}_V $$
+证明
+$$
+AB-BA\ne\mathrm{id}_V
+$$
 
 **习题 2**. 线性空间 $V$ 的线性自同态 $p:V\to V$ 满足 $p^2=p$, 证明
 $V=\operatorname{Ker}p\oplus\operatorname{Im}p$
@@ -87,35 +91,43 @@ $V=\operatorname{Ker}p\oplus\operatorname{Im}p$
 **习题 3**. 给定**有限维**线性空间 $V$ 的线性**自同构** $f:V\to V$, 若 $V$
 的子空间 $W$ 是 $f$-不变的子空间, 则它也是 $f^{-1}$-不变的子空间.
 
-**习题 4** ($\star$). 基域$\mathbb R$上的$n\times n$任意矩阵$A$, 证明
-$$\operatorname{Rank}A=\operatorname{Rank}A^\text TA$$
+**习题 4** ($\star$). 基域 $\mathbb R$ 上的 $n\times n$ 任意矩阵 $A$, 证明
+$$
+\operatorname{Rank}A=\operatorname{Rank}A^\text TA
+$$
 
-**习题 5** ($\star$). 线性映射$f:M_n(k)\to k$满足$f(AB)=f(BA)$,
-证明$f=c\operatorname{Tr}$对某$c\in k$
+**习题 5** ($\star$). 线性映射 $f:M_n(k)\to k$ 满足 $f(AB)=f(BA)$,
+证明 $f=c\operatorname{Tr}$ 对某 $c\in k$
 
 #### 抽象代数
 
-**习题 6**. 对群$G$的两个子群$H_1,H_2$使$H_1\cup H_2$是子群,
-证明$H_1,H_2$具有互相包含关系
+**习题 6**. 对群 $G$ 的两个子群 $H_1,H_2$ 使 $H_1\cup H_2$ 是子群,
+证明 $H_1,H_2$ 具有互相包含关系
 
-**习题 7**. 证明有限群到$\mathbb C^\times$的同态穿过$S^1$
+**习题 7**. 证明有限群到 $\mathbb C^\times$ 的同态穿过 $S^1$
 
-**习题 8**. 证明$pq$阶群不是单群, 其中$p,q$是不相同的素数
+**习题 8**. 证明 $pq$ 阶群不是单群, 其中 $p,q$ 是不相同的素数
 
-**习题 9**. 证明$4$元群总是Abel 群
+**习题 9**. 证明 $4$ 元群总是 Abel 群
 
-**习题 10**. 证明二次扩张都是Galois 扩张
+**习题 10**. 证明二次扩张都是 Galois 扩张
 
 **习题 11** ($\star$). 请写出 Abel 群映射正合的定义, 并从你写出的定义出发, 证明
-Abel 群的**四引理**：设 Abel 群 $A,B,C,D,A',B',C',D'$ 有如下图表 $$
-\xymatrix{A\ar[r]\ar[d]_\alpha & B\ar[r]\ar[d]_\beta & C\ar[r]\ar[d]_\gamma&
-D\ar[d]_\delta\\ A'\ar[r]& B'\ar[r]& C'\ar[r]& D', } $$ 若 $\alpha$ 是满射且
-$\beta, \delta$ 是单射, 则 $\gamma$ 是单射；若 $\delta$ 是单射且 $\alpha,
-\gamma$ 是满射, 则 $\beta$ 是满射
+Abel 群的**四引理**：设 Abel 群 $A,B,C,D,A',B',C',D'$ 有如下图表
+<div>
+$$
+\begin{CD} A
+@>>> B @>>> C @>>> D \\ @VV\alpha V @VV\beta V @VV\gamma V @VV\delta V \\ A'
+@>>> B' @>>> C' @>>> D' \end{CD}
+$$
+</div>
+若 $\alpha$ 是满射且 $\beta, \delta$ 是单射,
+则 $\gamma$ 是单射；若 $\delta$ 是单射且 $\alpha, \gamma$ 是满射, 则 $\beta$
+是满射
 
 #### 交换代数
 
-**习题 12** ($\star$). 证明**Krull 交定理**: Noether 环 $R$ 上理想 $I$
+**习题 12** ($\star$). 证明 **Krull 交定理**: Noether 环 $R$ 上理想 $I$
 和有限生成模 $M$, 存在 $r\in I$ 使 $$ (1-r)\bigcap_{k\ge 0}I^kM=0. $$
 
 **习题 13** ($\star$). 环 $R$ 和 $R$ -模正合列 $0\to M\to N\to P\to 0$,
@@ -126,24 +138,24 @@ $$
 **习题 14** ($\star$). 给定环 $R$ 和有限生成 $R$-模 $M$, $R$-模满自同态 $f:M\to
 M$, 证明 $f$ 是同构
 
-**习题 15**. 证明**素理想回避定理**：设环$R$中有素理想$\mathfrak
-p_1,\cdots,\mathfrak p_n$是和一般的理想$I$, 如果$I\not\subset\mathfrak
-p_i$对所有$i$成立, 则存在$x\in I$使$x\not\in\mathfrak p_i$对所有$i$成立
+**习题 15**. 证明**素理想回避定理**：设环 $R$ 中有素理想 $\mathfrak
+p_1,\cdots,\mathfrak p_n$ 是和一般的理想 $I$, 如果 $I\not\subset\mathfrak
+p_i$ 对所有 $i$ 成立, 则存在$ x\in I$ 使 $x\not\in\mathfrak p_i$ 对所有 $i$ 成立
 
 #### 数论基础
 
-**习题 16**. 对正整数$a,s,t$,
-证明$a^{\operatorname{gcd}(s,t)}-1=\operatorname{gcd}(a^s-1,a^t-1)$.（作为bonus,
-可以证明对任意正整数$n$, $n\nmid 2^n-1$）
+**习题 16**. 对正整数 $a,s,t$,
+证明 $a^{\operatorname{gcd}(s,t)}-1=\operatorname{gcd}(a^s-1,a^t-1)$（作为bonus,
+可以证明对任意正整数 $n$, $n\nmid 2^n-1$）
 
-**习题 17** ($\star$). 对$K=\mathbb Q[\sqrt{-3}]$, 证明它的整数环$\mathcal
-O_K=\mathbb Z[\omega]$其中$\omega=\frac12(1+\sqrt{-3})$, 并且证明$\mathcal
-O_K$是主理想整环
+**习题 17** ($\star$). 对 $K=\mathbb Q[\sqrt{-3}]$, 证明它的整数环 $\mathcal
+O_K=\mathbb Z[\omega]$ 其中 $\omega=\frac12(1+\sqrt{-3})$, 并且证明 $\mathcal
+O_K$ 是主理想整环
 
 **习题 18** ($\star$). 证明域的有限乘法群是循环群
 
-**习题 19**. 设$p$是奇素数, 证明$x^2+y^2=1$在$\mathbb
-F_p$中的解数为$p-(-1)^{(p-1)/2}$
+**习题 19**. 设 $p$ 是奇素数, 证明 $x^2+y^2=1$ 在 $\mathbb
+F_p$ 中的解数为 $p-(-1)^{(p-1)/2}$
 
 #### 基础分析
 
@@ -152,8 +164,8 @@ F_p$中的解数为$p-(-1)^{(p-1)/2}$
 
 **习题 21** ($\star$). 奇数次实系数多项式必有实根
 
-**习题 22** ($\star$). 周期三蕴含混沌的 Li--Yorke定理：若 $f:[0,1]\to[0,1]$
-是连续映射, 且 $f$ 存在 $3$-周期点, 则对任意正整数 $n$, $f$ 存在 $n$ -周期点
+**习题 22** ($\star$). 周期三蕴含混沌的 Li--Yorke 定理：若 $f:[0,1]\to[0,1]$
+是连续映射, 且 $f$ 存在 $3$-周期点, 则对任意正整数 $n$, $f$ 存在 $n$-周期点
 
 #### 点集拓扑
 
@@ -164,7 +176,7 @@ $C_2$
 
 #### 泛函分析
 
-**习题 25** ($\star$). 可分Hilbert 空间上的紧算子是有限秩算子的极限
+**习题 25** ($\star$). 可分 Hilbert 空间上的紧算子是有限秩算子的极限
 
 **习题 26**. 给定 $X,Y$ 是 Banach 空间和连续线性算子 $f:X\to Y$. 证明 $f(X)$
 要么是 $Y$, 要么是第一纲的
