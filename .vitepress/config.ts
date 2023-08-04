@@ -43,7 +43,23 @@ export default defineConfig({
         text: "Team Exercises",
         link: "/team-exercises",
       },
-      { text: "Research Projects", link: "/research-projects" },
+      {
+        text: "Research Projects",
+        link: "/research-projects",
+        items: [
+          {
+            text: "凸分析与凸优化",
+            link: "/research-projects/convex-optimization",
+          },
+
+          { text: "数论", link: "/research-projects/number-theory" },
+
+          {
+            text: "谱序列及谱序列收敛定理",
+            link: "/research-projects/spectral-sequence",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
