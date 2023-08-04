@@ -3,11 +3,6 @@ bibliography:
 - team-exercises/ref.bib
 date: 2023.7
 title: AI4Math 练习项目说明
-
-head:
-  - - link
-    - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/katex.min.css
 ---
 
 # AI4Math 练习项目说明
@@ -131,25 +126,24 @@ $$
 **习题 14** ($\star$). 给定环 $R$ 和有限生成 $R$-模 $M$, $R$-模满自同态 $f:M\to
 M$, 证明 $f$ 是同构
 
-**习题 15**. _证明**素理想回避定理**：设环$R$中有素理想$\mathfrak
+**习题 15**. 证明**素理想回避定理**：设环$R$中有素理想$\mathfrak
 p_1,\cdots,\mathfrak p_n$是和一般的理想$I$, 如果$I\not\subset\mathfrak
-p_i$对所有$i$成立, 则存在$x\in I$使$x\not\in\mathfrak p_i$对所有$i$成立._ :::
+p_i$对所有$i$成立, 则存在$x\in I$使$x\not\in\mathfrak p_i$对所有$i$成立
 
 #### 数论基础
 
-**习题 16**. _对正整数$a,s,t$,
-证明$a^{\operatorname{gcd}(s,t)}-1=\operatorname{gcd}(a^s-1,a^t-1)$._
+**习题 16**. 对正整数$a,s,t$,
+证明$a^{\operatorname{gcd}(s,t)}-1=\operatorname{gcd}(a^s-1,a^t-1)$.（作为bonus,
+可以证明对任意正整数$n$, $n\nmid 2^n-1$）
 
-_（作为bonus, 可以证明对任意正整数$n$, $n\nmid 2^n-1$. ）_ :::
-
-**习题 17** ($\star$). _对$K=\mathbb Q[\sqrt{-3}]$, 证明它的整数环$\mathcal
+**习题 17** ($\star$). 对$K=\mathbb Q[\sqrt{-3}]$, 证明它的整数环$\mathcal
 O_K=\mathbb Z[\omega]$其中$\omega=\frac12(1+\sqrt{-3})$, 并且证明$\mathcal
-O_K$是主理想整环._ :::
+O_K$是主理想整环
 
-**习题 18** ($\star$). _证明域的有限乘法群是循环群._ :::
+**习题 18** ($\star$). 证明域的有限乘法群是循环群
 
-**习题 19**. _设$p$是奇素数, 证明$x^2+y^2=1$在$\mathbb
-F_p$中的解数为$p-(-1)^{(p-1)/2}$._ :::
+**习题 19**. 设$p$是奇素数, 证明$x^2+y^2=1$在$\mathbb
+F_p$中的解数为$p-(-1)^{(p-1)/2}$
 
 #### 基础分析
 
