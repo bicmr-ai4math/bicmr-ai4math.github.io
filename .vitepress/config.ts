@@ -22,6 +22,10 @@ export default defineConfig({
     'BiCMR "AI for Mathematics: Formalization and Theorem Proving" Seminar Homepage',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: "local",
+    },
+
     nav: [
       { text: "Home", link: "/" },
 
