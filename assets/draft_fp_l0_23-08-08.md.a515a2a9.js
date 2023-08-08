@@ -40,8 +40,6 @@ import{_ as s,v as n,b as a,R as l}from"./chunks/framework.3ac7bdc3.js";const x=
 <span class="line"><span style="color:#A6ACCD;">    | []      =&gt; ys</span></span>
 <span class="line"><span style="color:#A6ACCD;">    | x :: xs =&gt; x :: append xs ys</span></span>
 <span class="line"><span style="color:#A6ACCD;"></span></span>
-<span class="line"><span style="color:#A6ACCD;">-- def append :</span></span>
-<span class="line"><span style="color:#A6ACCD;"></span></span>
 <span class="line"><span style="color:#A6ACCD;">example : append [0, 1, 2] [3, 4] = [0, 1, 2, 3, 4] :=</span></span>
 <span class="line"><span style="color:#A6ACCD;">  rfl</span></span>
 <span class="line"><span style="color:#A6ACCD;"></span></span>
