@@ -1,0 +1,1 @@
+import{_ as a,v as e,b as t}from"./chunks/framework.3ac7bdc3.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"lean4-qa.md","filePath":"lean4-qa.md"}'),s={name:"lean4-qa.md"};function n(r,o,c,_,d,i){return e(),t("div")}const l=a(s,[["render",n]]);export{f as __pageData,l as default};
