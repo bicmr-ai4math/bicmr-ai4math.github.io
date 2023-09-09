@@ -54,6 +54,24 @@ Set http_proxy=<replace_with_your_proxy_url>
 - Unix：`echo $PATH`，`export PATH=$HOME/.elan/bin:$PATH`
 - Windows：按下 Windows 键，输入「环境」进行搜索，配置对应选项中的 `PATH`
 
+检查：
+
+Unix
+
+```sh
+which elan
+which lake
+which lean
+```
+
+Windows
+
+```PowerShell
+where elan
+where lake
+where lean
+```
+
 ### 其他参见
 
 - [Can I get "&&" or "-and" to work in PowerShell?](https://stackoverflow.com/questions/563600/can-i-get-or-and-to-work-in-powershell)
@@ -98,4 +116,5 @@ scripts（`bashrc`、`zshrc`、`$PSHOME\Profile.ps1`、…）的相关资料。
 
 ## 在 macOS 上使用 Nix 安装的 Elan
 
-- https://github.com/alissa-tung/dot-darwin/blob/c9a4dc886918c56f330439fb1233629873939844/Makefile#L21
+- 缺失 `gmp`
+  库：https://github.com/alissa-tung/dot-darwin/blob/c9a4dc886918c56f330439fb1233629873939844/Makefile#L21
