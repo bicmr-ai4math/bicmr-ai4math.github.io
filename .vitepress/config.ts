@@ -17,9 +17,9 @@ export default defineConfig({
     },
   },
 
-  title: "PKU BiCMR AI for Math",
+  title: "PKU BICMR AI for Math",
   description:
-    'BiCMR "AI for Mathematics: Formalization and Theorem Proving" Seminar Homepage',
+    'BICMR "AI for Mathematics: Formalization and Theorem Proving" Seminar Homepage',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
